@@ -14,6 +14,7 @@ mongoose.connect("mongodb://cathrin3111_db_user:Cath123@ac-ddsbza2-shard-00-00.2
 // ✅ Schema
 const feedbackSchema = new mongoose.Schema({
   name: String,
+  email:String,
   message: String
 });
 
